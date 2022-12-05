@@ -15,8 +15,6 @@ return require('packer').startup(function(use)
 
   use 'neovim/nvim-lspconfig' -- LSP
 
-  -- use 'norcalli/nvim-colorizer.lua' -- color highlighter need termguicolors to be true, but that breaks my theme for some reason
-
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
