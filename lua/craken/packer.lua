@@ -27,4 +27,7 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-tree/nvim-tree.lua'
   use {'akinsho/bufferline.nvim', tag = 'v3.*', requires = 'nvim-tree/nvim-web-devicons'}
+
+  use 'nvim-lua/plenary.nvim' -- common utilities
+  use 'nvim-telescope/telescope.nvim' -- fuzzy finder
 end)
