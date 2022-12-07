@@ -30,4 +30,6 @@ return require('packer').startup(function(use)
 
   use 'nvim-lua/plenary.nvim' -- common utilities
   use 'nvim-telescope/telescope.nvim' -- fuzzy finder
+
+  use 'windwp/nvim-ts-autotag' -- autoclose html tags
 end)
